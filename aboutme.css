@@ -1,0 +1,148 @@
+body{
+	font-family: Helvetica, sans-serif;
+
+}
+body section{
+	padding: 50px;
+	margin: 50px;
+	width: 1200px;
+	
+}
+body h2{
+	text-align: center;
+	background-color: black;
+	color: white;
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+
+a{
+	color: gray;
+}
+#header  {
+text-align: center;
+}
+.nav-bar{
+	text-align: center;
+	padding-bottom: 20px;
+	
+}
+.nav-bar ul .btn{
+	list-style: none;
+	display: inline-block;
+	
+}
+
+.nav-bar ul .btn a{
+	list-style: none;
+	margin-right: 25px;
+	margin-left:25px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	background: #FFFF;
+	padding: 10px;
+}
+ .nav-bar ul .btn:hover a{
+ 	color: white;
+ 	background: black;
+ 	transition-duration: 2s ;
+
+ }
+
+
+#section1{
+    display: flex;
+	margin: auto;
+	max-width: 1200px;
+  	background-color: #fff;
+  	overflow: scroll;
+ 	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+ 	justify-content: space-around;
+
+
+}
+#section1 div {
+	display: inline-block;
+	padding:10px;
+
+}
+
+.profil img{
+	width: 200px;
+	height:300px;
+	margin: 10px;
+	filter: grayscale(100%);
+
+}
+.profil:hover img{
+	filter: grayscale(0%);
+	transition-duration: 1s;
+
+}
+.story{
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+}
+#section2 {
+ 
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+   margin: auto;
+}
+#section2 .inner{
+	width: 300px;
+	height: 400px;
+	background-color: #fff;
+  	overflow: auto;
+ 	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin: 10px;
+ 
+
+}
+
+#section3 {
+ 
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+  margin: auto;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+
+}
+
+#section3 div {
+	display: inline-block;
+	margin:10px;
+
+}
+
+.img-single img{
+	width: 100px;
+	height: 100px;
+	filter: grayscale(100%);
+
+}
+.img-single:hover img{
+	filter: grayscale(0%);
+	transition-duration: 2s;
+}
+
+footer{
+	
+	justify-content: space-around;
+	background-color: black;
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+}
+footer a{
+	padding-left: 20px;
+	padding-right: 20px;
+}
