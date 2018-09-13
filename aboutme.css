@@ -109,7 +109,6 @@ text-align: center;
   justify-content: space-around;
   margin: auto;
   background-color: #fff;
-  overflow: hidden;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
 
 }
@@ -143,3 +142,47 @@ footer a{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+@media(max-width: 768px){
+	
+	body section{
+		display:flex;
+		flex-direction: column;
+		
+	}
+	body h2{
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.nav-bar {
+		display: none;
+	}
+
+	#section1 div{
+		display: flex;
+		padding: 10px;
+		flex-direction: column;
+	}
+	.story{
+		overflow: scroll;
+		width: auto;
+		margin-top: 20px;
+	}
+	.profil img{
+		margin: auto;
+	}
+
+    #section2{
+       padding: 10px;
+
+    }
+
+	#section2 .inner {
+	margin: auto;
+	margin-top: 20px;
+	}
+    
+    #section3 div {
+    	max-height: 400px;
+    	overflow: scroll;
+    }
